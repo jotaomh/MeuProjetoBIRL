@@ -1,0 +1,22 @@
+{
+  "name": "meuprojetobirl",
+  "version": "1.0.0",
+  "description": "Interface web para rodar BIRL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "birl",
+    "interface",
+    "web"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "birl-js": "^1.0.3",
+    "express": "^4.22.3"
+  }
+}
